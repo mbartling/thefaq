@@ -1,0 +1,17 @@
+{
+  "name": "thefaq",
+  "version": "0.0.1",
+  "description": "Simple Slack bot example using botkit-middleware-watson with Botkit.",
+  "main": "thefaq.js",
+  "scripts": {
+    "start": "node thefaq.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "botkit-middleware-watson": "^1.3.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "googleapis": "^16.1.0"
+  }
+}
